@@ -1,0 +1,1 @@
+It looks like the programmer referenced a variable inside a local scope outside that scope

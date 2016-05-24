@@ -1,0 +1,1 @@
+The code will not print anything to the screen since the return keyword prevents the execution of further lines.

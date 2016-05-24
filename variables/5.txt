@@ -1,0 +1,7 @@
+The first program will increment x 3 times by the value of 1.
+The output will be 3
+
+The second program will increment y 3 times by 1.
+It will also set y's value as the value of x
+The output will be an error since x was defined inside the method and x cannot be accessed by y outside the method.
+
