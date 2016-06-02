@@ -1,0 +1,16 @@
+1.  The .product method will modify arr to blend the original array
+    with a new Array consisting of [1, 2, 3].  Then arr.first.last
+    selects the first array in the array ["b", 1] and then selects
+    the last item in this array which is 1. 1 is passed as an 
+    argument into the .delete method which is acting on the first
+    item in the array.  What is returned is "1" which is the deleted
+     item from the first nested array ["b", 1].  The value of array 
+    is the same as it was after the .product method transformed it
+    except the first item is now ["b"] instead of ["b", 1].
+
+2. This time the .product method returns a 2D arrat that consists of 
+   [["b", [1, 2, 3]], ["c", [1, 2, 3]]].  arr.first.last selects for
+   [1, 2, 3] and passes that as an argument into the .delete method
+   that is operating on the first item in the array.  This will return
+   [1, 2, 3] since that was what was being deleted and modify the array
+   such that the first item will be ["b"]

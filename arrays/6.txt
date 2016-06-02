@@ -1,0 +1,7 @@
+So the intent of the code is to replace 'margaret' with 'jody'.  But
+when 'margaret' is passed in as the index value to target there is 
+error since indices are integers.  So a fix could be that we use the
+.index method on the names array to get the index value for 'margaret'
+ and then pass that index value in to be replaced with 'jody'
+
+names[names.index('margaret')] = 'jody'

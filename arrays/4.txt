@@ -1,0 +1,4 @@
+1. returns 3 since the integer 5 occurs in the 3rd location
+2. returns an error since the .index method exects an argument
+   that isn't an array
+3. returns 8 since that is the integer in the 5th index
